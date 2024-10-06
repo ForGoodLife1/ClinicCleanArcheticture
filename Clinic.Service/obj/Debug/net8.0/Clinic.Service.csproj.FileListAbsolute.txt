@@ -1,0 +1,5 @@
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Service\obj\Debug\net8.0\Clinic.Service.csproj.AssemblyReference.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Service\obj\Debug\net8.0\Clinic.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Service\obj\Debug\net8.0\Clinic.Service.AssemblyInfoInputs.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Service\obj\Debug\net8.0\Clinic.Service.AssemblyInfo.cs
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Service\obj\Debug\net8.0\Clinic.Service.csproj.CoreCompileInputs.cache

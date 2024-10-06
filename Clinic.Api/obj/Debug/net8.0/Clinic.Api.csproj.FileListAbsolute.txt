@@ -1,0 +1,6 @@
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.csproj.AssemblyReference.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.AssemblyInfoInputs.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.AssemblyInfo.cs
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.csproj.CoreCompileInputs.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Api\obj\Debug\net8.0\Clinic.Api.MvcApplicationPartsAssemblyInfo.cache

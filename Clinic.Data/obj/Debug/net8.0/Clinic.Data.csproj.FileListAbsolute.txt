@@ -1,0 +1,12 @@
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\bin\Debug\net8.0\Clinic.Data.deps.json
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\bin\Debug\net8.0\Clinic.Data.dll
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\bin\Debug\net8.0\Clinic.Data.pdb
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.csproj.AssemblyReference.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.AssemblyInfoInputs.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.AssemblyInfo.cs
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.csproj.CoreCompileInputs.cache
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.dll
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\refint\Clinic.Data.dll
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\Clinic.Data.pdb
+C:\Users\fares\source\repos\Clinic.CleanArcheticture\Clinic.Data\obj\Debug\net8.0\ref\Clinic.Data.dll
