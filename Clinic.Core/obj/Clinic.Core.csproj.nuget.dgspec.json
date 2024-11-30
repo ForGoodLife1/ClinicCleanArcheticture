@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Core\\Clinic.Core.csproj": {}
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Core\\Clinic.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Core\\Clinic.Core.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Core\\Clinic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Core\\Clinic.Core.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Core\\Clinic.Core.csproj",
         "projectName": "Clinic.Core",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Core\\Clinic.Core.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Core\\Clinic.Core.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Core\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,14 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\Clinic.Service.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\Clinic.Service.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\Clinic.Service.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\Clinic.Service.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj",
         "projectName": "Clinic.Data",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
         "projectName": "Clinic.Infrastructure",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -209,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj"
               }
             }
           }
@@ -236,7 +236,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -291,14 +291,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\Clinic.Service.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\Clinic.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\Clinic.Service.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\Clinic.Service.csproj",
         "projectName": "Clinic.Service",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\Clinic.Service.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\Clinic.Service.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Service\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -316,11 +316,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Infrastructure\\Clinic.Infrastructure.csproj"
               }
             }
           }

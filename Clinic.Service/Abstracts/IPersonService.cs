@@ -1,4 +1,4 @@
-﻿/*using Clinic.Data.Entities;
+﻿using Clinic.Data.Entities;
 using Clinic.Data.Enums;
 
 namespace Clinic.Service.Abstracts
@@ -21,4 +21,3 @@ namespace Clinic.Service.Abstracts
 
     }
 }
-*/

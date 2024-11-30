@@ -72,7 +72,7 @@ namespace Clinic.Infrustructure
             //Swagger Gn
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "School Project", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Clinic Project", Version = "v1" });
                 c.EnableAnnotations();
 
                 c.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
@@ -102,17 +102,17 @@ namespace Clinic.Infrustructure
 
             services.AddAuthorization(option =>
             {
-                option.AddPolicy("CreateStudent", policy =>
+                option.AddPolicy("CreatePatient", policy =>
                 {
-                    policy.RequireClaim("Create Student", "True");
+                    policy.RequireClaim("Create Patient", "True");
                 });
-                option.AddPolicy("DeleteStudent", policy =>
+                option.AddPolicy("DeletePatient", policy =>
                 {
-                    policy.RequireClaim("Delete Student", "True");
+                    policy.RequireClaim("Delete Patient", "True");
                 });
-                option.AddPolicy("EditStudent", policy =>
+                option.AddPolicy("EditPatient", policy =>
                 {
-                    policy.RequireClaim("Edit Student", "True");
+                    policy.RequireClaim("Edit Patient", "True");
                 });
             });
 

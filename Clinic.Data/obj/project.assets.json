@@ -1955,11 +1955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj",
+      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj",
       "projectName": "Clinic.Data",
-      "projectPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\Clinic.Data.csproj",
+      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\Clinic.Data.csproj",
       "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\source\\repos\\Clinic.CleanArcheticture\\Clinic.Data\\obj\\",
+      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\Clinic.CleanArcheticture\\Back\\Clinic.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2026,5 +2026,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

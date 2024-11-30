@@ -1,7 +1,6 @@
-﻿/*using Clinic.Data.Entities;
+﻿using Clinic.Data.Entities;
 using Clinic.Data.Enums;
 using Clinic.Infrastructure.Abstracts;
-using Clinic.Service.Abstracts;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -25,7 +24,7 @@ namespace Clinic.Service.Implementations
         {
             // var Person = await _PersonRepository.GetByIdAsync(id);
             var Person = _PersonRepository.GetTableNoTracking()
-                                          .Include(x => x.Person)
+                                          .Include(x => x.)
                                           .Where(x => x.PersonId.Equals(id))
                                           .FirstOrDefault();
             return Person;
@@ -134,4 +133,3 @@ namespace Clinic.Service.Implementations
 
     }
 }
-*/

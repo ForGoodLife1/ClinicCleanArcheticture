@@ -3,12 +3,15 @@ using Clinic.Data.Entities.Identity;
 using EntityFrameworkCore.EncryptColumn.Extension;
 using EntityFrameworkCore.EncryptColumn.Interfaces;
 using EntityFrameworkCore.EncryptColumn.Util;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
+
 namespace Clinic.Infrastructure.AppDbContext;
 
-public partial class ClinicDbContext : IdentityDbContext<User, Role, int, IdentityUser  Claim<int>, IdentityUserRole<int>, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
+public partial class ClinicDbContext : IdentityDbContext<User, Role, int, IdentityUserClaim<int>, IdentityUserRole<int>, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
 
 {
     private readonly IEncryptionProvider _encryptionProvider;
