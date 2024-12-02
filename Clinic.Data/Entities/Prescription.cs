@@ -1,6 +1,8 @@
-﻿namespace Clinic.Data.Entities;
+﻿using Clinic.Data.Commons;
 
-public partial class Prescription
+namespace Clinic.Data.Entities;
+
+public partial class Prescription : GeneralLocalizableEntity
 {
     public int PrescriptionId { get; set; }
 

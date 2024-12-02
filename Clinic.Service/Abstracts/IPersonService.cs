@@ -16,8 +16,7 @@ namespace Clinic.Service.Abstracts
         public Task<string> EditAsync(Person person);
         public Task<string> DeleteAsync(Person person);
         public IQueryable<Person> GetPersonsQuerable();
-        public IQueryable<Person> GetPersonsByPersonIDQuerable(int PID);
-        public IQueryable<Person> FilterPersonPaginatedQuerable(PatientOrderingEnum orderingEnum, string search);
+        public IQueryable<Person> FilterPersonPaginatedQuerable(PersonOrderingEnum orderingEnum, string search);
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Clinic.Data.Entities;
 using Clinic.Data.Enums;
 using Clinic.Infrastructure.Abstracts;
+using Clinic.Service.Abstracts;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -24,7 +25,8 @@ namespace Clinic.Service.Implementations
         {
             // var Person = await _PersonRepository.GetByIdAsync(id);
             var Person = _PersonRepository.GetTableNoTracking()
-                                          .Include(x => x.)
+                                          .Include(x => x.Doctors)
+                                          .Include(x => x.Patients)
                                           .Where(x => x.PersonId.Equals(id))
                                           .FirstOrDefault();
             return Person;
@@ -72,30 +74,36 @@ namespace Clinic.Service.Implementations
 
         public IQueryable<Person> GetPersonsQuerable()
         {
-            return _PersonRepository.GetTableNoTracking().Include(x => x.Person).AsQueryable();
+            return _PersonRepository.GetTableNoTracking()
+                                    .Include(x => x.Doctors)
+                                    .Include(x => x.Patients).AsQueryable();
         }
 
-        public IQueryable<Person> FilterPersonPaginatedQuerable(PatientOrderingEnum orderingEnum, string search)
+        public IQueryable<Person> FilterPersonPaginatedQuerable(PersonOrderingEnum orderingEnum, string search)
         {
-            var querable = _PersonRepository.GetTableNoTracking().Include(x => x.Person).AsQueryable();
+            var querable = _PersonRepository.GetTableNoTracking()
+                                            .Include(x => x.Doctors)
+                                            .Include(x => x.Patients).AsQueryable();
             if (search != null)
             {
-                querable = querable.Where(x => x.Person.NameAr.Contains(search) || x.Person.Address.Contains(search));
+                querable = querable.Where(x => x.NameAr.Contains(search) || x.Address.Contains(search));
             }
             switch (orderingEnum)
             {
                 case PersonOrderingEnum.PersonId:
                     querable = querable.OrderBy(x => x.PersonId);
                     break;
-                case PersonOrderingEnum.NameAr:
-                    querable = querable.OrderBy(x => x.Person.NameAr);
+                case PersonOrderingEnum.Name:
+                    querable = querable.OrderBy(x => x.NameEn);
                     break;
                 case PersonOrderingEnum.Address:
-                    querable = querable.OrderBy(x => x.Person.Address);
+                    querable = querable.OrderBy(x => x.Address);
                     break;
                 case PersonOrderingEnum.Gender:
-                    querable = querable.OrderBy(x => x.Person.Gender);
+                    querable = querable.OrderBy(x => x.Gender);
                     break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(orderingEnum), orderingEnum, null);
             }
 
             return querable;
@@ -105,10 +113,7 @@ namespace Clinic.Service.Implementations
 
 
 
-        public IQueryable<Person> GetPersonsByPatientIDQuerable(int PID)
-        {
-            return _PersonRepository.GetTableNoTracking().Where(x => x..Equals(PID)).AsQueryable();
-        }
+
 
         public Task<bool> IsNameArExist(string nameAr)
         {

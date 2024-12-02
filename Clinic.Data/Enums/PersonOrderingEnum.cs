@@ -1,10 +1,10 @@
 ﻿
 namespace Clinic.Data.Enums
 {
-    public enum PatientOrderingEnum
+    public enum PersonOrderingEnum
 
     {
-        PatientId = 0,
+        PersonId = 0,
         Name = 1,
         Address = 2,
         Gender = 3
