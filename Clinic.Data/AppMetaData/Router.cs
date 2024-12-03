@@ -8,9 +8,9 @@
         public const string version = "V1";
         public const string Rule = root + "/" + version + "/";
 
-        public static class StudentRouting
+        public static class PersonRouting
         {
-            public const string Prefix = Rule + "Student";
+            public const string Prefix = Rule + "Person";
             public const string List = Prefix + "/List";
             public const string GetByID = Prefix + SignleRoute;
             public const string Create = Prefix + "/Create";
@@ -19,14 +19,18 @@
             public const string Paginated = Prefix + "/Paginated";
 
         }
-        public static class DepartmentRouting
+        public static class PatientRouting
         {
-            public const string Prefix = Rule + "Department";
-            public const string GetByID = Prefix + "/Id";
-            public const string GetDepartmentStudentsCount = Prefix + "/Department-Students-Count";
-            public const string GetDepartmentStudentsCountById = Prefix + "/Department-Students-Count-ById/{id}";
+            public const string Prefix = Rule + "Patient";
+            public const string List = Prefix + "/List";
+            public const string GetByID = Prefix + SignleRoute;
+            public const string Create = Prefix + "/Create";
+            public const string Edit = Prefix + "/Edit";
+            public const string Delete = Prefix + "/{id}";
+            public const string Paginated = Prefix + "/Paginated";
 
         }
+
         public static class ApplicationUserRouting
         {
             public const string Prefix = Rule+"User";
@@ -69,11 +73,6 @@
             public const string Prefix = Rule+"EmailsRoute";
             public const string SendEmail = Prefix+"/SendEmail";
         }
-        public static class InstructorRouting
-        {
-            public const string Prefix = Rule+"InstructorRouting";
-            public const string GetSalarySummationOfInstructor = Prefix+"/Salary-Summation-Of-Instructor";
-            public const string AddInstructor = Prefix+"/Create";
-        }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Clinic.Core.Feautres.PatientCQRS.Queries.ResponseQueries
+﻿/*namespace Clinic.Core.Feautres.PatientCQRS.Queries.ResponseQueries
 {
     public class GetPatientPaginatedListResopnse
     {
@@ -18,3 +18,4 @@
 
     }
 }
+*/

@@ -24,36 +24,36 @@ namespace Clinic.Service.Implementations
         public async Task<Person> GetPersonByIDWithIncludeAsync(int id)
         {
             // var Person = await _PersonRepository.GetByIdAsync(id);
-            var Person = _PersonRepository.GetTableNoTracking()
+            var person = _PersonRepository.GetTableNoTracking()
                                           .Include(x => x.Doctors)
                                           .Include(x => x.Patients)
                                           .Where(x => x.PersonId.Equals(id))
                                           .FirstOrDefault();
-            return Person;
+            return person;
         }
 
-        public async Task<string> AddAsync(Person Person)
+        public async Task<string> AddAsync(Person person)
         {
             //Added Person
-            await _PersonRepository.AddAsync(Person);
+            await _PersonRepository.AddAsync(person);
             return "Success";
         }
 
 
 
 
-        public async Task<string> EditAsync(Person Person)
+        public async Task<string> EditAsync(Person person)
         {
-            await _PersonRepository.UpdateAsync(Person);
+            await _PersonRepository.UpdateAsync(person);
             return "Success";
         }
 
-        public async Task<string> DeleteAsync(Person Person)
+        public async Task<string> DeleteAsync(Person person)
         {
             var trans = _PersonRepository.BeginTransaction();
             try
             {
-                await _PersonRepository.DeleteAsync(Person);
+                await _PersonRepository.DeleteAsync(person);
                 await trans.CommitAsync();
                 return "Success";
             }
@@ -68,8 +68,8 @@ namespace Clinic.Service.Implementations
 
         public async Task<Person> GetByIDAsync(int id)
         {
-            var Person = await _PersonRepository.GetByIdAsync(id);
-            return Person;
+            var person = await _PersonRepository.GetByIdAsync(id);
+            return person;
         }
 
         public IQueryable<Person> GetPersonsQuerable()

@@ -102,17 +102,17 @@ namespace Clinic.Infrustructure
 
             services.AddAuthorization(option =>
             {
-                option.AddPolicy("CreatePatient", policy =>
+                option.AddPolicy("CreatePerson", policy =>
                 {
-                    policy.RequireClaim("Create Patient", "True");
+                    policy.RequireClaim("Create Person", "True");
                 });
-                option.AddPolicy("DeletePatient", policy =>
+                option.AddPolicy("DeletePerson", policy =>
                 {
-                    policy.RequireClaim("Delete Patient", "True");
+                    policy.RequireClaim("Delete Person", "True");
                 });
-                option.AddPolicy("EditPatient", policy =>
+                option.AddPolicy("EditPerson", policy =>
                 {
-                    policy.RequireClaim("Edit Patient", "True");
+                    policy.RequireClaim("Edit Person", "True");
                 });
             });
 

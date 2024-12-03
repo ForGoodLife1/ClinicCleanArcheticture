@@ -31,7 +31,6 @@
 
   <ItemGroup>
     <Folder Include="Feautres\PatientCQRS\Commands\" />
-    <Folder Include="Mapping\PatientMapping1\Queries\" />
   </ItemGroup>
 
 </Project>
